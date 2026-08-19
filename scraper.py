@@ -2,7 +2,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://example.com"
+URL = "https://www.wikipedia.org"
 
 response = requests.get(URL, timeout=10)
 response.raise_for_status()
